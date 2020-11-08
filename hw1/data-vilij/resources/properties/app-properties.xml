@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING TITLES -->
+        <property name="UnSave_Work" value="Unsave Work"/>
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Do you want to save before you leave?"/>
+
+        <!--Error title-->
+        <property name="Subdir_Not_Found_Title" value="Initial Directory Not Found"/>
+        <property name="Display_Error_Title" value="Display Error"/>
+        <property name="ScreenShot_Error_Title" value="Screenshot Error"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="Save_Error_Message" value="Data cannot be save."/>
+        <property name="Load_Error_Message" value="Unable to load because this file is not a Tab-Separated Data(.tsd) File."/>
+        <property name="ScreenShot_Error_Message" value="Chart screenshot cannot be save due to error"/>
+
+        <!--file path symbol-->
+        <property name="Separator" value="/"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="Loaded_Data_Info" value="Loaded Data Info"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="Loading_With_Unsave_Work_Message" value="Would you like to save your current work before loading new data?"/>
+        <property name="SAVE_WORK_NOTIFICATION" value="Your work is save to last saved file"/>
+        <property name="Loaded_Data_Info_Message_Version1" value="Loaded data consistes of %d lines. Showing only the first 10 lines of the data"/>
+        <property name="Loaded_Data_Info_Message_Version2" value="Loaded data consistes of %d lines. All lines are loaded."/>
+
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="Image_File_Ext_With_StarKey" value="*.png"/>
+        <property name="Image_File_Ext" value="png"/>
+        <property name="Image_File_Ext_Desc" value="Portable Network Graphic File"/>
+        <property name="TEXT_AREA" value="Enter The Data"/>
+        <property name="chart_Title" value="Data Visualization"/>
+        <property name="Display_Label" value="Display"/>
+        <property name="Text_Field_Title" value="Data Files"/>
+        <property name="Data_Label_Title_Font" value="27"/>
+        <property name="READ_ONLY_LABEL" value="Read Only"/>
+        <property name="CSS_Path" value="/Style.css"/>
+        <property name="Average_Label" value="Average"/>
+        <property name="Average_Line_CSS_ID" value="averageLine"/>
+
+
+    </property_list>
+    <property_options_list/>
+</properties>
