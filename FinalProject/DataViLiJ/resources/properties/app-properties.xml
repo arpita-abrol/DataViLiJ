@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!--  path to the icons -->
+        <property name="GUI_ICON_PATH" value="/gui/icons/"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="CONFIGURATION_ICON" value="configuration.png"/>
+        <property name="BACK_ICON"  value="backIcon.png"/>
+        <property name="START_ICON" value="start.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/>
+        <property name="CONFIGURATION_TOOLTIP" value="Configuration"/>
+
+
+        <!--file path symbol-->
+        <property name="Separator" value="/"/>
+
+        <!-- application GUI label-->
+        <property name="ALGORITHM_TYPES" value="Algorithm Types"/>
+        <property name="ALGORITHMS" value="Algorithms"/>
+        <property name="CONTINUOUS_RUN_TEXT" value="Continous Run"/>
+        <property name="CONFIRM_TEXT" value="Confirm"/>
+        <property name="CANCEL_TEXT" value="Cancel"/>
+        <property name="MAX_INTERVAL_TEXT" value="Max Interval:"/>
+        <property name="ITERATION_INTERVAL_TEXT" value="Iteration Interval:"/>
+        <property name="NUMBER_OF_CLUSTER" value="Number of Cluster: "/>
+        <property name="LOADED_DATA_INFO_TEXT" value="%d instances with %d labels are loaded from %s. The labels are: "/>
+        <property name="LOADED_DATA_INTO_FROM_TEXTBOX" value="%d instances with %d labels are loaded from the text box. The labels are:"/>
+        <property name="LOADED_FILE_LOCATION_TEXT" value="The Data was retrieved from the file path:"/>
+        <property name="CHART_TITLE" value="Algorithm Visualization Plot"/>
+        <property name="EDIT_BUTTON_LABEL" value="Edit"/>
+        <property name="COMPLETE_BUTTON_LABEL" value="Complete"/>
+
+        <!-- application parameters -->
+        <property name="CSS_Path" value="/properties/appStyle.css"/>
+
+        <!--parameters for saving-->
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="Image_File_Ext" value="png"/>
+        <property name="Image_File_Ext_Desc" value="Portable Network Graphic File"/>
+        <property name="Image_File_Ext_With_StarKey" value="*.png"/>
+
+        <!--algorithm types labels-->
+        <property name="CLUSTERING_TYPE" value="Cluster Algorithm Type"/>
+        <property name="CLASSIFICATION_TYPE" value="Classification Algorithm Type"/>
+
+        <!--message titles -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="LOAD_ERROR_TITLE" value="Load Error"/>
+        <property name="SAVE_ERROR_TITLE" value="Save Error"/>
+        <property name="Subdir_Not_Found_Title" value="Directory Not Found"/>
+        <property name="ScreenShot_Error_Title" value="ScreenShot Error"/>
+        <property name="INVALID_INPUT_TITLE"    value="Invalid Input "/>
+        <property name="SAVE_TITLE" value="SAVE"/>
+
+        <!--message contents-->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="LOAD_IO_ERROR_MESSAGE" value=""/>
+        <property name="LOAD_WRONG_FORMAT_MESSAGE" value="Cannot load data in %s format. Please only select data in TSD format."/>
+        <property name="SAVE_IO_ERROR_MESSAGE" value=""/>
+        <property name="RESOURCE_SUBDIR_NOT_FOUND_MESSAGE" value="Cannot find initial directory."/>
+        <property name="ScreenShot_Error_Message" value="Cannot screenshot the chart image"/>
+        <property name="SAVE_LAST_LOCATION_MESSAGE" value="Saved to last save location"/>
+
+    </property_list>
+    <property_options_list/>
+</properties>
